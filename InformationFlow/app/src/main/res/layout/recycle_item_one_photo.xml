@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:id="@+id/lin_onephoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recycle_title"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/recycle_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="中新网移动版"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/recycle_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="1020评论"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/recycle_img1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
